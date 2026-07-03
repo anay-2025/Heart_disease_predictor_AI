@@ -69,4 +69,3 @@ y_pred = model.predict(X_test_scaled)
 
 pickle.dump(model, open("model.pkl", "wb"))
 pickle.dump(scaler, open("scaler.pkl", "wb"))
-
